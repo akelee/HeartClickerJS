@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Orbitron:wght@500&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -12,10 +14,25 @@ body {
     height: 100vh;
 }
 
+.clickme {
+    font-family: "Orbitron";
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .emoji {
     font-size: 10rem;
     cursor: pointer;
     user-select: none;/*remove blue selection box around emoji*/
+}
+
+.emoji2 {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
 }
 
 .whole {
