@@ -1,2 +1,2 @@
 # HeartClickerJS
-Simple JS project
+Simple emoji clicker JS project 
